@@ -1,4 +1,4 @@
-import React from "react";
+
 import { FaFacebook } from "react-icons/fa";
 import { FaTelegram } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
