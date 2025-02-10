@@ -21,13 +21,13 @@ export default function Order() {
   };
   return (
     <div>
-      <div className="container justify-between items-center flex-col gap-y-6 md:flex-row flex py-20">
-        <div className="basis-[35%] flex flex-col gap-y-6 ">
+      <div className=" p-4 items-center flex-col gap-y-6 md:flex-row flex py-20">
+        <div className=" flex flex-col gap-y-6 ">
           <motion.h1
             variants={animation}
             initial="init"
             whileInView="first"
-            className="font-serif text-4xl text-darkGray font-bold"
+            className="font-serif text-xl  md:text-4xl text-darkGray font-bold"
           >
             Buy our products from anywhere
           </motion.h1>
@@ -37,7 +37,7 @@ export default function Order() {
               variants={animation}
               initial="init"
               whileInView="second"
-              className="flex gap-x-2 "
+              className="flex md:flex-row flex-col gap-y-4"
             >
               <input
                 placeholder="name"
@@ -54,7 +54,7 @@ export default function Order() {
               variants={animation}
               initial="init"
               whileInView="second"
-              className="flex gap-x-2"
+              className="flex md:flex-row flex-col gap-y-4"
             >
               <input
                 placeholder="country"
